@@ -83,7 +83,7 @@ section.header .logo:hover {
   text-decoration: underline;
 }
 
-section.banner {
+section.common {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -98,118 +98,19 @@ section.banner {
           align-items: center;
 }
 
-section.banner .content {
+section.common .content {
   position: relative;
   max-width: 900px;
   text-align: center;
   color: #fff;
 }
 
-section.banner .content h2 {
+section.common .content h2 {
   font-size: 4em;
   letter-spacing: 0.17em;
 }
 
-section.banner .content p {
-  margin-top: 1.8em;
-  line-height: 1.6em;
-  font-size: 1.5em;
-}
-
-section.one {
-  position: relative;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 100vh;
-}
-
-section.one .content-one {
-  position: relative;
-  color: #fff;
-  max-width: 900px;
-  text-align: center;
-}
-
-section.one .content-one h2 {
-  font-size: 4em;
-  letter-spacing: 0.17em;
-}
-
-section.one .content-one p {
-  margin-top: 1.8em;
-  line-height: 1.6em;
-  font-size: 1.5em;
-}
-
-section.two {
-  position: relative;
-  min-height: 100vh;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-section.two .content-two {
-  position: relative;
-  max-width: 900px;
-  color: #fff;
-  text-align: center;
-}
-
-section.two .content-two h2 {
-  font-size: 4em;
-  letter-spacing: 0.17em;
-}
-
-section.two .content-two p {
-  margin-top: 1.8em;
-  line-height: 1.6em;
-  font-size: 1.5em;
-}
-
-section.three {
-  position: relative;
-  min-height: 100vh;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-section.three .content-three {
-  position: relative;
-  max-width: 900px;
-  color: #fff;
-  text-align: center;
-}
-
-section.three .content-three h2 {
-  font-size: 4em;
-  letter-spacing: 0.17em;
-}
-
-section.three .content-three p {
+section.common .content p {
   margin-top: 1.8em;
   line-height: 1.6em;
   font-size: 1.5em;
