@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+/*VARIABLES*/
+/*FUNCTIONS*/
+/*-----------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #111;
+}
+
+section {
+  position: relative;
+  padding: 100px;
+}
+
+.fitBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container.*/
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  border: 1px solid #fff;
+  margin-top: 2em;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.btn:hover {
+  color: #222;
+  background: #fff;
+}
+
+section.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section.header .logo {
+  font-size: 1.5em;
+  text-decoration: none;
+  background: linear-gradient(45deg, #0034a9 40%, #E4002B);
+  color: #fff;
+  padding: 10px;
+  -webkit-box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+}
+
+section.header .logo:hover {
+  text-decoration: underline;
+}
+
+section.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.banner .content {
+  position: relative;
+  max-width: 900px;
+  text-align: center;
+  color: #fff;
+}
+
+section.banner .content h2 {
+  font-size: 4em;
+  letter-spacing: 0.17em;
+}
+
+section.banner .content p {
+  margin-top: 1.8em;
+  line-height: 1.6em;
+  font-size: 1.5em;
+}
+
+section.one {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+section.one .content-one {
+  position: relative;
+  color: #fff;
+  max-width: 900px;
+  text-align: center;
+}
+
+section.one .content-one h2 {
+  font-size: 4em;
+  letter-spacing: 0.17em;
+}
+
+section.one .content-one p {
+  margin-top: 1.8em;
+  line-height: 1.6em;
+  font-size: 1.5em;
+}
+
+section.two {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.two .content-two {
+  position: relative;
+  max-width: 900px;
+  color: #fff;
+  text-align: center;
+}
+
+section.two .content-two h2 {
+  font-size: 4em;
+  letter-spacing: 0.17em;
+}
+
+section.two .content-two p {
+  margin-top: 1.8em;
+  line-height: 1.6em;
+  font-size: 1.5em;
+}
+
+section.three {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.three .content-three {
+  position: relative;
+  max-width: 900px;
+  color: #fff;
+  text-align: center;
+}
+
+section.three .content-three h2 {
+  font-size: 4em;
+  letter-spacing: 0.17em;
+}
+
+section.three .content-three p {
+  margin-top: 1.8em;
+  line-height: 1.6em;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=main.css.map */
